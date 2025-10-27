@@ -8,7 +8,7 @@ Name:            kernel
 Summary:         mainline kernel for %{soc}
 License:         GPLv2
 URL:             https://github.com/codechara/linux-sm8150
-Source0:         %{url}/archive/refs/heads/v%{version}-sm8150.tar.gz
+Source0:         %{url}/archive/refs/tags/v%{version}-sm8150.tar.gz
 Source1:         extra-%{soc}.config
 Patch0:          rotation.patch
 
