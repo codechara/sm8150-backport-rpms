@@ -27,7 +27,8 @@ BuildRequires:   bc bison dwarves diffutils elfutils-devel findutils gcc gcc-c++
 %{summary}
 
 %prep
-%autosetup -n linux-%{soc}-%{tag} -p1
+echo "test"
+%autosetup -n %{soc}/%{tag} -p1
 make defconfig %{soc}.config
 
 %build
