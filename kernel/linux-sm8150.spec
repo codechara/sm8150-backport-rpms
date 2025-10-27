@@ -1,7 +1,7 @@
 %undefine        _debugsource_packages
 %global soc      sm8150
 %global tag      6.16
-Version:         6.16.0-t%(date +%s)
+Version:         6.16.0.t%(date +%s)
 Release:         0.%{soc}%{?dist}
 ExclusiveArch:   aarch64
 Name:            kernel
