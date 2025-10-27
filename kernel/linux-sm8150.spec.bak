@@ -1,14 +1,14 @@
 %undefine        _debugsource_packages
 %global soc      sm8150
-%global tag      6.16
-Version:         6.16.0
+%global tag      6.17
+Version:         6.17.0
 Release:         0.%{soc}%{?dist}
 ExclusiveArch:   aarch64
 Name:            kernel
 Summary:         mainline kernel for %{soc}
 License:         GPLv2
-URL:             https://github.com/codechara/linux-sm8150
-Source0:         %{url}/
+URL:             https://gitlab.com/%{soc}-mainline/linux
+Source0:         %{url}/-/archive/%{soc}/%{tag}/linux-%{soc}-%{tag}.tar.gz
 Source1:         extra-%{soc}.config
 Patch0:          rotation.patch
 
