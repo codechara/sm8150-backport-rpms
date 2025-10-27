@@ -28,7 +28,7 @@ BuildRequires:   bc bison dwarves diffutils elfutils-devel findutils gcc gcc-c++
 
 %prep
 echo "test"
-%autosetup -n linux-sm8150-6.16.0-sm8150 -p1
+%autosetup -n linux-sm8150-sm8150-%{tag} -p1
 make defconfig %{soc}.config
 
 %build
