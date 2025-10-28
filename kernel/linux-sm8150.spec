@@ -1,6 +1,6 @@
 %undefine        _debugsource_packages
 %global soc      sm8150
-%global tag      6.16
+%global tag      6.16-lit_sensor_fix
 Version:         6.16.0
 Release:         0.%{soc}%{?dist}.%(date +%s)
 ExclusiveArch:   aarch64
